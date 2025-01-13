@@ -1,39 +1,32 @@
-Gestión de Inventarios con SQLite
+# Gestión de Inventario con SQLite
 
-Este proyecto es una aplicación en Python para gestionar inventarios de productos. Incluye funciones para agregar, buscar, actualizar y eliminar productos, además de consultar estadísticas, realizar ventas y llevar un historial de transacciones. La base de datos utilizada es SQLite.
-Características
+Este es un proyecto en Python que permite gestionar el inventario de productos utilizando una base de datos SQLite. Podrás realizar operaciones CRUD, filtrar productos, consultar estadísticas del inventario, registrar ventas y consultar un historial de ventas.
 
-    Gestión de productos:
-        Agregar nuevos productos con nombre, descripción, cantidad y precio.
-        Listar todos los productos en el inventario.
-        Buscar productos por nombre.
-        Actualizar información de productos existentes.
-        Eliminar productos del inventario.
-    Funciones avanzadas:
-        Filtrar productos según criterios (por cantidad o rango de precio).
-        Consultar estadísticas del inventario: cantidad total de productos y valor total.
-    Gestión de ventas:
-        Registrar ventas con control de stock.
-        Consultar el historial de ventas, con detalles de cada transacción.
+## Características
 
-Requisitos
+- **Gestión de productos**: Agregar, actualizar y eliminar productos.
+- **Consulta de productos**: Listar y buscar productos.
+- **Funciones avanzadas**:
+  - Filtrar productos por nombre o rango de precios.
+  - Consultar estadísticas como el valor total del inventario y la cantidad total de productos.
+  - Registrar ventas y mantener un historial de ventas.
 
-    Python 3.x
-    SQLite3 (se incluye con Python por defecto)
+## Instalación y Uso
 
-Instalación
-
-    Clona el repositorio:
-
-git clone https://github.com/tuusuario/nombre-del-repositorio.git
-cd nombre-del-repositorio
-
-Asegúrate de tener Python instalado y ejecuta el script:
-
-python main.py
+#Abre tu terminal y clona este repositorio con el siguiente comando:
+```bash
+git clone https://github.com/tuusuario/gestion-inventario.git
 
 
-Estructura del Proyecto
+#Ve al directorio
+cd gestion-inventario
 
-    main.py: Archivo principal que contiene el menú y las funciones CRUD.
-    database.db: Archivo SQLite donde se almacenan los datos del inventario y las ventas (se genera automáticamente).
+
+#Ejecuta el programa
+python gestion_inventario.py
+
+
+## Estructura del Proyecto
+
+    gestion_inventario.py: Código principal del programa.
+    Base de datos: Se utiliza un archivo SQLite llamado database.db para almacenar la información.
