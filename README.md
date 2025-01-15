@@ -15,7 +15,7 @@ Este es un proyecto en Python que permite gestionar el inventario de productos u
 
 #Abre tu terminal y clona este repositorio con el siguiente comando:
 ```bash
-git clone https://github.com/tuusuario/gestion-inventario.git
+git clone https://github.com/pablo-ph-py/gestion-inventario.git
 
 
 #Ve al directorio
