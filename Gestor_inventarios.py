@@ -88,7 +88,7 @@ def eliminar_producto(id_producto):
     conexion.close()
     print("Producto eliminado correctamente.")
 
-# Nuevas funciones
+
 def filtrar_productos_por_cantidad(min_cantidad, max_cantidad):
     conexion = conectar_db()
     cursor = conexion.cursor()
